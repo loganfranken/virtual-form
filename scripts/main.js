@@ -112,7 +112,7 @@
 
   function render(dt)
   {
-    renderer.render(scene, camera);
+    effect.render(scene, camera);
   }
 
   function fullscreen()
